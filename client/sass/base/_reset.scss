@@ -1,0 +1,18 @@
+@use "../global/colors" as *;
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    background-color: $white-800;
+    color: $black-800;
+    direction: ltr;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#appMount {
+    background-color: $black-900;
+}

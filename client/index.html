@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="shortcut icon" href="./images/netflix-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
 </head>
 <body>
-    <h1>Hello Netflix</h1>
+    <div id="appMount">
+        <div class="our-story__container">
+            <header class="our-story__wrapper">
+                <div class="our-story__wrapper-header">
+                    <div class="our-story__header-nfLogo">
+                        <img src="./svg/netflix-logo.svg" alt="Netflix Logo">
+                    </div>
+                    <div class="our-story__header-rightSide">
+                        <div class="language-switcher">
+                            <label for="languageID"></label>
+                            <img src="./images/icons8-geography-50.png" alt="">
+                            <select name="language" id="languageID">
+                                <option value="English">English</option>
+                                <option value="Hindi">हिन्दी</option>
+                            </select>
+                        </div>
+                        <button class="sign-btn">Sign In</button>
+                    </div>
+                </div>
+            </header>
+            <main class="our-story__cards">
+                <div class="our-story__card unlimitedMovies">
+                    <div class="our-story__card-background">
+                        <div class="our-story__card-image">
+                            <img class="concard-img" src="./images/netflix-background.jpeg" alt="Netflix">
+                            <div class="concord-img-gradient"></div>
+                        </div>
+                    </div>
+                    <div class="our-story__card-text">
+                        <h1 class="our-story__card-text-title">Unlimited movies, TV shows and more.</h1>
+                        <h2 class="our-story__card-text-subtitle">Watch anywhere. Cancel anytime.</h2>
+                        <form action="GET" class="our-story__card-text-form">
+                            <h3 class="form__title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                            <div class="form__lookup">
+                                <div class="form__lookup-email">
+                                    <label for="inputID"></label>
+                                    <input type="email" name="email" id="inputID" placeholder="Email address">
+                                </div>
+                                <div class="form__lookup-btn">
+                                    <button>Get Started</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="our-story__card enjoyOnTV"></div>
+                <div class="our-story__card downloadShows"></div>
+                <div class="our-story__card watchAnywhere"></div>
+                <div class="our-story__card kidsProfile"></div>
+                <div class="our-story__card faqs"></div>
+            </main>
+            <footer class="our-story__footer"></footer>
+        </div>
+    </div>
 </body>
 </html>

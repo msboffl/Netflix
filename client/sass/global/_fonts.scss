@@ -1,136 +1,136 @@
-$Poppins-path: "../../fonts";
+$Lato-path: "../../fonts";
 
 // <===== Font Variable ====>
-$Poppins-Thin: "Poppins-Thin";
-$Poppins-ThinItalic: "Poppins-ThinItalic";
-$Poppins-ExtraLight: "Poppins-ExtraLight";
-$Poppins-ExtraLightItalic: "Poppins-ExtraLightItalic";
-$Poppins-Light: "Poppins-Light";
-$Poppins-LightItalic: "Poppins-LightItalic";
-$Poppins-Regular: "Poppins-Regular";
-$Poppins-Medium: "Poppins-Medium";
-$Poppins-MediumItalic: "Poppins-MediumItalic";
-$Poppins-SemiBold: "Poppins-SemiBold";
-$Poppins-SemiBoldItalic: "Poppins-SemiBoldItalic";
-$Poppins-Bold: "Poppins-Bold";
-$Poppins-BoldItalic: "Poppins-BoldItalic";
-$Poppins-ExtraBold: "Poppins-ExtraBold";
-$Poppins-ExtraBoldItalic: "Poppins-ExtraBoldItalic";
-$Poppins-Black: "Poppins-Black";
-$Poppins-BlackItalic: "Poppins-BlackItalic";
+$Lato-Thin: "Lato-Thin";
+$Lato-ThinItalic: "Lato-ThinItalic";
+$Lato-ExtraLight: "Lato-ExtraLight";
+$Lato-ExtraLightItalic: "Lato-ExtraLightItalic";
+$Lato-Light: "Lato-Light";
+$Lato-LightItalic: "Lato-LightItalic";
+$Lato-Regular: "Lato-Regular";
+$Lato-Medium: "Lato-Medium";
+$Lato-MediumItalic: "Lato-MediumItalic";
+$Lato-SemiBold: "Lato-SemiBold";
+$Lato-SemiBoldItalic: "Lato-SemiBoldItalic";
+$Lato-Bold: "Lato-Bold";
+$Lato-BoldItalic: "Lato-BoldItalic";
+$Lato-ExtraBold: "Lato-ExtraBold";
+$Lato-ExtraBoldItalic: "Lato-ExtraBoldItalic";
+$Lato-Black: "Lato-Black";
+$Lato-BlackItalic: "Lato-BlackItalic";
 
 
 // <===== Font Paths ====> 
 @font-face {
-    font-family: "Poppins-Thin";
-    src: url("#{$Poppins-path}/Poppins-Thin.ttf");
+    font-family: "Lato-Thin";
+    src: url("#{$Lato-path}/Lato-Thin.ttf");
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-ThinItalic";
-    src: url("#{$Poppins-path}/Poppins-ThinItalic.ttf");
+    font-family: "Lato-ThinItalic";
+    src: url("#{$Lato-path}/Lato-ThinItalic.ttf");
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Poppins-ExtraLight";
-    src: url("#{$Poppins-path}/Poppins-ExtraLight.ttf");
+    font-family: "Lato-ExtraLight";
+    src: url("#{$Lato-path}/Lato-ExtraLight.ttf");
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-ExtraLightItalic";
-    src: url("#{$Poppins-path}/Poppins-ExtraLightItalic.ttf");
+    font-family: "Lato-ExtraLightItalic";
+    src: url("#{$Lato-path}/Lato-ExtraLightItalic.ttf");
     font-weight: 200;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Poppins-Light";
-    src: url("#{$Poppins-path}/Poppins-Light.ttf");
+    font-family: "Lato-Light";
+    src: url("#{$Lato-path}/Lato-Light.ttf");
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-LightItalic";
-    src: url("#{$Poppins-path}/Poppins-LightItalic.ttf");
+    font-family: "Lato-LightItalic";
+    src: url("#{$Lato-path}/Lato-LightItalic.ttf");
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("#{$Poppins-path}/Poppins-Regular.ttf");
+    font-family: "Lato-Regular";
+    src: url("#{$Lato-path}/Lato-Regular.ttf");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("#{$Poppins-path}/Poppins-Regular.ttf");
+    font-family: "Lato-Regular";
+    src: url("#{$Lato-path}/Lato-Regular.ttf");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Poppins-Medium";
-    src: url("#{$Poppins-path}/Poppins-Medium.ttf");
+    font-family: "Lato-Medium";
+    src: url("#{$Lato-path}/Lato-Medium.ttf");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-MediumItalic";
-    src: url("#{$Poppins-path}/Poppins-MediumItalic.ttf");
+    font-family: "Lato-MediumItalic";
+    src: url("#{$Lato-path}/Lato-MediumItalic.ttf");
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Poppins-SemiBold";
-    src: url("#{$Poppins-path}/Poppins-SemiBold.ttf");
+    font-family: "Lato-SemiBold";
+    src: url("#{$Lato-path}/Lato-SemiBold.ttf");
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-SemiBoldItalic";
-    src: url("#{$Poppins-path}/Poppins-SemiBoldItalic.ttf");
+    font-family: "Lato-SemiBoldItalic";
+    src: url("#{$Lato-path}/Lato-SemiBoldItalic.ttf");
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "Poppins-Bold";
-    src: url("#{$Poppins-path}/Poppins-Bold.ttf");
+    font-family: "Lato-Bold";
+    src: url("#{$Lato-path}/Lato-Bold.ttf");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-BoldItalic";
-    src: url("#{$Poppins-path}/Poppins-BoldItalic.ttf");
+    font-family: "Lato-BoldItalic";
+    src: url("#{$Lato-path}/Lato-BoldItalic.ttf");
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
-    font-family: "Poppins-ExtraBold";
-    src: url("#{$Poppins-path}/Poppins-ExtraBold.ttf");
+    font-family: "Lato-ExtraBold";
+    src: url("#{$Lato-path}/Lato-ExtraBold.ttf");
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Poppins-ExtraBoldItalic";
-    src: url("#{$Poppins-path}/Poppins-ExtraBoldItalic.ttf");
+    font-family: "Lato-ExtraBoldItalic";
+    src: url("#{$Lato-path}/Lato-ExtraBoldItalic.ttf");
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
-    font-family: "Poppins-Black";
-    src: url("#{$Poppins-path}/Poppins-Black.ttf");
+    font-family: "Lato-Black";
+    src: url("#{$Lato-path}/Lato-Black.ttf");
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: "Poppins-BlackItalic";
-    src: url("#{$Poppins-path}/Poppins-BlackItalic.ttf");
+    font-family: "Lato-BlackItalic";
+    src: url("#{$Lato-path}/Lato-BlackItalic.ttf");
     font-weight: 900;
     font-style: italic;
 }
