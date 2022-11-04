@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js & sass --watch client/sass/main.scss client/css/main.css"
   },
   "repository": {
     "type": "git",
