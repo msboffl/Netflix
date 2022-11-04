@@ -1,0 +1,28 @@
+{
+  "name": "netflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/netflix.git"
+  },
+  "author": "Mareedu Saibabu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msboffl/netflix/issues"
+  },
+  "homepage": "https://github.com/msboffl/netflix#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}
