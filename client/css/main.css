@@ -17,108 +17,6 @@ body, html {
   background-color: #000000;
 }
 
-.our-story__cards {
-  margin: 0 auto;
-}
-.our-story__cards .our-story__card {
-  padding: 50px 5%;
-  background: transparent;
-  color: #ffffff;
-  border-bottom: 8px solid #222222;
-  position: relative;
-}
-.our-story__cards .our-story__card-background {
-  position: absolute;
-  top: -100px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-}
-.our-story__cards .our-story__card-image {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 765px;
-}
-.our-story__cards .our-story__card-image img {
-  height: 100%;
-  object-fit: cover;
-  transform: none;
-  width: 100%;
-}
-.our-story__cards .unlimitedMovies .concord-img-gradient {
-  background-color: rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8));
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text {
-  max-width: 950px;
-  margin: 0 auto;
-  padding: 75px 0;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-title {
-  font-size: 5rem;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-subtitle {
-  font-size: 1.625rem;
-  margin: 1rem auto;
-  font-weight: 400;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form {
-  display: flex;
-  flex-direction: column;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__title {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0 auto;
-  padding: 0 5% 20px 5%;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  align-items: center;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input {
-  min-width: 600px;
-  height: 70px;
-  border: 3px solid #e50914;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input::placeholder {
-  color: #8c8c8c;
-  font-size: 1.15rem;
-  padding-left: 1.5rem;
-  padding-top: 0.5rem;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input:focus-visible {
-  font-size: 1.15rem;
-  border: none;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input:focus {
-  font-size: 1.15rem;
-  padding-left: 1.5rem;
-  border: none;
-}
-.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-btn button {
-  background-color: #e50914;
-  border: 2px solid #e50914;
-  color: #ffffff;
-  cursor: pointer;
-  height: 75px;
-  min-width: 200px;
-  font-size: 1.75rem;
-}
-
 .our-story__wrapper {
   background-color: transparent;
   height: 5rem;
@@ -168,6 +66,138 @@ body, html {
   border: 2px solid #e50914;
   color: #ffffff;
   cursor: pointer;
+}
+
+.our-story__cards {
+  margin: 0 auto;
+}
+.our-story__cards .our-story__card {
+  padding: 70px 5%;
+  background: transparent;
+  color: #ffffff;
+  border-bottom: 8px solid #222222;
+  position: relative;
+}
+.our-story__cards .our-story__card-background {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.our-story__cards .our-story__card-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 765px;
+}
+.our-story__cards .our-story__card-image img {
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  width: 100%;
+}
+.our-story__cards .unlimitedMovies .concord-img-gradient {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0, transparent 60%, rgba(0, 0, 0, 0.8));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 75px 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-title {
+  font-size: 5rem;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-subtitle {
+  font-size: 1.625rem;
+  margin: 2rem auto;
+  font-weight: 400;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form {
+  display: flex;
+  flex-direction: column;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0 5% 20px 5%;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input {
+  min-width: 600px;
+  height: 70px;
+  border: 3px solid #e50914;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input::placeholder {
+  color: #8c8c8c;
+  font-size: 1.15rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input:focus-visible {
+  font-size: 1.15rem;
+  border: none;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-email input:focus {
+  font-size: 1.15rem;
+  padding-left: 1.5rem;
+  border: none;
+}
+.our-story__cards .unlimitedMovies .our-story__card-text-form .form__lookup-btn button {
+  background-color: #e50914;
+  border: 2px solid #e50914;
+  color: #ffffff;
+  cursor: pointer;
+  height: 75px;
+  width: 250px;
+  font-size: 1.75rem;
+}
+
+.enjoyOnTV .animation__card {
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+}
+.enjoyOnTV .animation__card-text {
+  padding-right: 3em;
+}
+.enjoyOnTV .animation__card-text h1 {
+  font-size: 3.125rem;
+  margin-bottom: 0.5rem;
+}
+.enjoyOnTV .animation__card-text h2 {
+  font-size: 1.625em;
+  margin-top: 2vw;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.enjoyOnTV .animation__card-container {
+  position: relative;
+  z-index: 1;
+}
+.enjoyOnTV .animation__card-container .animation__video {
+  position: absolute;
+  top: 5vw;
+  left: 4vw;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=main.css.map */
