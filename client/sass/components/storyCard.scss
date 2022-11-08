@@ -5,7 +5,7 @@
   margin: 0 auto;
 
   .our-story__card {
-    padding: 50px 5%;
+    padding: 70px 5%;
     background: transparent;
     color: $white-900;
     border-bottom: 8px solid $black-700;
@@ -62,7 +62,7 @@
       }
       &-subtitle {
         font-size: 1.625rem;
-        margin: 1rem auto;
+        margin: 2rem auto;
         font-weight: 400;
       }
       &-form {
@@ -106,7 +106,7 @@
             button {
               @include red-btn;
               height: 75px;
-              min-width: 200px;
+              width: 250px;
               font-size: 1.75rem;
             }
           }

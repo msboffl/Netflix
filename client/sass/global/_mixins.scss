@@ -1,4 +1,5 @@
 @use "./colors" as *;
+
 @mixin red-btn {
     background-color: $red-800;
     border: 2px solid $red-800;
